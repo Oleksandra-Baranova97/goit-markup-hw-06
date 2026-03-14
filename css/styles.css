@@ -85,6 +85,7 @@ body:has(.backdrop.is-open) {
     display: none;
  }
 
+
  .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -121,15 +122,15 @@ body:has(.backdrop.is-open) {
     } 
 }
 
-.header-nav {
-    display: flex;
-    align-items: center;
- }
-
 .nav-list {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -151,7 +152,6 @@ body:has(.backdrop.is-open) {
 
 .nav-link.current {
     position: relative;
-
 }
 
 .nav-link.current::after {
@@ -164,7 +164,6 @@ body:has(.backdrop.is-open) {
     border-radius: 2px;
     background-color: #404bbf;
 }
-
 .contacts {
     font-style: normal;
     display: block;
@@ -199,7 +198,7 @@ body:has(.backdrop.is-open) {
     } 
 }
     
-    .contacts-list {
+.contacts-list {
     flex-direction: row;
     align-items: center;
     gap: 40px;
@@ -211,3 +210,4 @@ body:has(.backdrop.is-open) {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
