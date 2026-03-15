@@ -68,7 +68,6 @@ body:has(.backdrop.is-open) {
     }
 }
 
-/* header */
  .page-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
@@ -212,7 +211,9 @@ body:has(.backdrop.is-open) {
     letter-spacing: 0.02em;
 }
 }
- /* mobile menu */
+
+
+ /* #mobile menu */
 
 .mobile-menu {
     position: fixed;
@@ -367,6 +368,7 @@ fill: #f4f4fd;
     } 
 }
 
+
 .hero {
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     padding: 72px 0;
@@ -431,7 +433,6 @@ fill: #f4f4fd;
     font-size: 56px;
     line-height: 1.11;
 }
-
 }
 
 @media  screen and (min-width: 1158px) {
@@ -443,5 +444,97 @@ fill: #f4f4fd;
 .main-title-hero {
     margin-bottom: 48px;
 }
+}
 
+
+.features-list {
+    padding: 96px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+
+.features-item {
+    max-width: 100%;
+}
+
+.f-item-info {
+    display: none;
+}
+
+.f-title-item {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+
+}
+.f-text-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+    .features-list {
+    column-gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 24px) / 2);
+}
+
+.f-item-info {
+    display: none;
+}
+
+.f-title-item {
+    text-align: start; 
+}
+}
+
+@media  screen and (min-width: 1158px) {
+
+.features-list {
+    padding: 120px 0;
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.f-item-info {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color:  #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-icon {
+    width: 64px;
+    height: 64px;
+}
+    
+.f-title-item {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.f-text-item {
+    font-weight: 400;
+     
+}
 }
