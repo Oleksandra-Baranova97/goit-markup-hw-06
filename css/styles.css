@@ -640,6 +640,15 @@ fill: #f4f4fd;
 @media screen and (min-width: 1158px) {
     .region-team {
      padding: 120px 0;   
+     margin: auto;
     }
     
+    .team-list {
+    gap: 24px;
+    }
+
+.team-item {
+    width: calc((100% - 72px) / 4);
 }
+}
+
