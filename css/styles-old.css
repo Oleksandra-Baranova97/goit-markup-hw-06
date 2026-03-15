@@ -12,6 +12,7 @@
     margin: auto;
 }
 .team-title-region {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -37,7 +38,7 @@
 
 .team-item {
     width: calc((100% - 72px) / 4);
-    border-radius: 0 0 4px 4px;
+    
     
 }
 
