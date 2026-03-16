@@ -931,7 +931,7 @@ fill: #f4f4fd;
     padding-left: 108px;
     padding-right: 108px;
     column-gap: 24px;
-    row-gap: 0;
+    row-gap: 72;
     
 }
 
@@ -984,6 +984,7 @@ fill: #f4f4fd;
     padding-right: 15px;
     align-items: baseline;
     column-gap: 0;
+    row-gap: 0;
 }
 
 .container-logo {
