@@ -280,7 +280,7 @@ body:has(.backdrop.is-open) {
     max-width: 496px;
     margin-bottom: 36px;
     font-size: 56px;
-    line-height: 1.11;
+    line-height: 1.07;
 }
 }
 
@@ -295,9 +295,10 @@ body:has(.backdrop.is-open) {
 }
 }
 
-
-.features-list {
+.feature {
     padding: 96px 0;
+}
+.features-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -614,6 +615,7 @@ body:has(.backdrop.is-open) {
     width: calc((100% - 48px) / 3);
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
 }
 
 .portfolio-item-info {
@@ -649,7 +651,7 @@ body:has(.backdrop.is-open) {
 }
 
 .text-footer {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -1199,6 +1201,10 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.studio-link {
+     color: #404bbf;
+}
+
 .mobile-nav-link:hover,
 .mobile-nav-link:focus {
     color: #404bbf;
@@ -1217,12 +1223,15 @@ color: #2e2f42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .mobile-contacts-link {
     font-style: normal;
     color: #434455;
+}
+
+.tel-link {
+    color: #4d5ae5;
 }
 
 .mobile-contacts-link:focus,
