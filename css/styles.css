@@ -307,7 +307,7 @@ body:has(.backdrop.is-open) {
 }
 
 .features-item {
-    max-width: 100%;
+    flex-basis: 100%;
 }
 
 .f-item-info {
@@ -338,7 +338,7 @@ body:has(.backdrop.is-open) {
 }
 
 .features-item {
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
 }
 
 .f-item-info {
@@ -360,7 +360,7 @@ body:has(.backdrop.is-open) {
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .f-item-info {
