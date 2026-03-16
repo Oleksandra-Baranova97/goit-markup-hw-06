@@ -351,6 +351,9 @@ body:has(.backdrop.is-open) {
 }
 
 @media screen and (min-width: 1158px) {
+.feature {
+    padding: 120px 0;
+}
 
 .features-list {
     gap: 24px;
