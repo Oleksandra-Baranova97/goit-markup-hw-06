@@ -353,7 +353,6 @@ body:has(.backdrop.is-open) {
 @media screen and (min-width: 1158px) {
 
 .features-list {
-    padding: 120px 0;
     gap: 24px;
 }
 
@@ -596,9 +595,8 @@ body:has(.backdrop.is-open) {
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
 }
-
 .portfolio-item-info {
-    width: 356px;
+    width: 100%;
 }
 }
 
